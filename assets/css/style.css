@@ -6554,7 +6554,7 @@ header .main-nav > a {
 }
 @media only screen and (max-width: 479px) {
   .side-bar {
-    width: 320px;
+    width: 100%;
     box-shadow: none;
   }
 }
@@ -8188,8 +8188,8 @@ header.header--sticky.sticky .nav-area ul li.main-nav {
 }
 @media only screen and (max-width: 575px) {
   .side-bar {
-    width: 320px;
-    padding: 40px 10px;
+    width: 100%;
+    padding: 40px 20px;
   }
 }
 .side-bar .inner-main-wrapper-desk .thumbnail {
@@ -8234,7 +8234,7 @@ header.header--sticky.sticky .nav-area ul li.main-nav {
   /* max-width: max-content; */
   margin-right: auto;
   margin-left: -28px;
-  margin-top: -51px;
+  margin-top: -50px;
   position: absolute;
   display: flex;
   min-height: 45px;
@@ -8245,7 +8245,7 @@ header.header--sticky.sticky .nav-area ul li.main-nav {
 }
 @media screen and (max-width: 575px) {
   .side-bar button {
-    margin-left: -4px;
+    margin-left: -14px;
     margin-top: -38px;
   }
 }
@@ -8323,7 +8323,7 @@ header.header--sticky.sticky .nav-area ul li.main-nav {
 
 /* elements  */
 .banner-style-one {
-  background-image: url(../images/banner/01.webp);
+  background-image: url(../images/banner/b1.webp);
   height: 850px;
   position: relative;
   z-index: 1;
@@ -8332,6 +8332,7 @@ header.header--sticky.sticky .nav-area ul li.main-nav {
   .banner-style-one {
     height: auto;
     background-position: 18%, 45%;
+     background-image: url(../images/banner/mob.webp);
   }
   .banner-style-one::after {
     content: "";
@@ -8366,7 +8367,7 @@ header.header--sticky.sticky .nav-area ul li.main-nav {
 }
 @media only screen and (max-width: 575px) {
   .banner-style-one .banner-one-inner {
-    padding: 106px 5px 126px 5px;
+    padding: 80px 5px 126px 5px;
   }
 }
 .banner-style-one .banner-one-inner .pre-title {
@@ -8384,7 +8385,7 @@ header.header--sticky.sticky .nav-area ul li.main-nav {
   font-weight: 700;
   line-height: 82px;
   margin-bottom: 23px;
-  font-size: 60px;
+  font-size: 36px;
   color: var(--color-primary);
   line-height: 1.3;
 }
@@ -8395,7 +8396,7 @@ header.header--sticky.sticky .nav-area ul li.main-nav {
 }
 .banner-style-one .banner-one-inner .title span {
   font-style: italic;
-  color: var(--color-primary);
+  color: #f38f1f;
   font-weight: 400;
   font-size: 70px;
   line-height: 1.3;
@@ -11056,7 +11057,8 @@ header.header--sticky.sticky .nav-area ul li.main-nav {
   height: 200%;
   top: 110%;
   left: 50%;
-  background: #f2f2f2;
+  background: #f38f1f;
+  color: #fff;
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
@@ -11071,7 +11073,7 @@ header.header--sticky.sticky .nav-area ul li.main-nav {
 }
 .rts-btn.btn-primary:hover {
   background: #f2f2f2;
-  color: var(--color-primary);
+  color: #fff;
 }
 .rts-btn.btn-primary:hover::before {
   top: -40%;
