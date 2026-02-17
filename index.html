@@ -20,7 +20,6 @@
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&amp;display=swap"
         rel="stylesheet preload" as="style" />
-    <link rel="preload" as="image" href="assets/images/banner/21.webp" />
     <link rel="stylesheet preload" href="assets/css/style.css" as="style" />
 </head>
 
@@ -54,9 +53,16 @@
                     <div class="col-lg-12">
                         <div class="header-main-one-wrapper">
                             <div class="thumbnail">
-                                <a href="/">
-                                    <img src="assets/images/logo/logo.png" alt="lefka-logo" />
+                                <div class="d-block d-lg-none">
+                                    <a href="/">
+                                    <img src="assets/images/logo/mobile.png" alt="lefka-logo" />
                                 </a>
+                                </div>
+                                <div class="d-none d-lg-block">
+                                    <a href="/">
+                                    <img src="assets/images/logo/desktop.png" alt="lefka-logo" />
+                                </a>
+                                </div>
                             </div>
                             <div class="main-header">
                                 <div class="nav-area">
@@ -102,16 +108,17 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="banner-one-inner text-start">
-                        <p class="pre-title">
-                            <span>Merhaba!</span>
-                        </p>
+                        <Image
+                         src="./assets/images/banner/hero2.webp"
+                         alt=""
+                        />
                         <h1 class="title rts-text-anime-style-1">
-                            Sunduğumuz <span>Hizmetlerle,</span>
-                            <div>Sizi Dev Firmalara Ulaştıracağız.</div>
+                             <span>Markanızın Yanında!</span>
                         </h1>
-                        <div class="banner-color-black">Büyüme hedefi olan markalar için, büyük ölçekli perakende
-                            ağlarına</div>
-                        <div class="banner-color-black bottom">erişimi mümkün kılan danışmanlık hizmetleri sunuyoruz.
+                        <div class="banner-color-black">Satın alma ve tedarik zinciri yönetiminde deneyimli ekip ve
+                        </div>
+                        <div class="banner-color-black bottom">inovatif marketing anlayışıyla stratejik iş ortağınız
+                            olarak yanınızdayız.
                         </div>
                         <a href="mailto:bilgi@lefkadanismanlik.com" class="rts-btn btn-primary color-h-black">Hadi
                             Başlayalım</a>
@@ -140,8 +147,13 @@
                             </h2>
                         </div>
                         <p class="disc">
-                            İhtiyaçlarınızı analiz eder, sizi büyük oyuncularla buluşturacak
-                            net ve uygulanabilir çözümler geliştiririz.
+                            Markanızın pazar araştırması ve analizlerini yapıyor, doğru stratejiyle tedarikten nihai
+                            tüketiciye ulaşma serüveninizde; ürünlerinize değer yaratılması, fiyatlandırılması ve
+                            lojistik
+                            sürecinin tamamlanmasında markanızın yanında yer alıyoruz. Müşteri ihtiyaçlarını anlama,
+                            talep
+                            oluşturma ve marka bağlılığı kurma odaklı bütünsel bir işletme anlayışıyla hizmet
+                            vermekteyiz.
                         </p>
                         <div class="call-and-sign-area">
                             <div class="call-area">
@@ -194,7 +206,7 @@
                 <div class="col-lg-12">
                     <div class="title-style-one center">
                         <span class="pre">Hizmetlerimiz</span>
-                        <h2 class="title rts-text-anime-style-1">Sunduğumuz Hizmetler</h2>
+                        <h2 class="title rts-text-anime-style-1">Hedef Analizi</h2>
                     </div>
                 </div>
                 <div class="col-lg-12 mt--20">
@@ -208,7 +220,7 @@
                             </div>
                             <div class="right">
                                 <p class="disc">
-                                    Markaların büyük perakende zincirlerine giriş sürecini planlar, doğru temaslar ve
+                                    Müşterilerimizin arz ve taleplerine göre, doğru temaslar ve
                                     net bir yol haritası oluştururuz.
                                 </p>
                             </div>
@@ -222,8 +234,8 @@
                             </div>
                             <div class="right">
                                 <p class="disc">
-                                    Doğru perakende oyuncularıyla güçlü ve sürdürülebilir iş birlikleri kurmanızı
-                                    sağlarız.
+                                    Talep doğrultusunda tedarik, kiralama,lojistik gibi tüm süreçlerinize partnerlik
+                                    sağlıyoruz.
                                 </p>
                             </div>
                         </div>
@@ -236,7 +248,8 @@
                             </div>
                             <div class="right">
                                 <p class="disc">
-                                    Ürününüz için en uygun perakende kanallarını analiz eder, rekabetçi konumlandırma
+                                    Talepleriniz için en uygun perakende kanallarını analiz eder, rekabetçi
+                                    konumlandırma
                                     sunarız.
                                 </p>
                             </div>
@@ -291,9 +304,9 @@
                                 <img src="assets/images/about/icons/01.svg" alt="" />
                             </div>
                             <div class="information">
-                                <h4 class="title">Profesyonel Perakende Danışmanlığı</h4>
+                                <h4 class="title">Profesyonel Marka Danışmanlığı</h4>
                                 <p class="disc">
-                                    Markaların büyük perakende zincirleriyle çalışma süreçlerini stratejik ve kontrollü
+                                    Markaların çalışma süreçlerini, stratejik ve kontrollü
                                     şekilde yönetiyoruz.
                                 </p>
                             </div>
@@ -378,33 +391,34 @@
                                         <div class="title-style-one left">
                                             <span class="pre">Doğru Adımlarla Büyüyün</span>
                                             <h2 class="title rts-text-anime-style-1">
-                                                Güvenilir ve <br />Sonuç Odaklı<br />
-                                                Danışmanlık Ajansı
+                                                Güvenilir ve Sonuç Odaklı Partnerlik
                                             </h2>
                                         </div>
                                         <p class="disc">
-                                            Markaların büyük perakende zincirlerine giriş sürecini stratejik, hızlı ve
+                                            Stratejik iş partnerliğinizi hızlı ve
                                             doğru
                                             şekilde yönetiyoruz.
                                             Her adımı ölçülebilir sonuçlar ve sürdürülebilir iş birlikleri üzerine
-                                            kuruyoruz.
+                                            kurmayı hedefliyoruz.
                                         </p>
                                         <div class="feature-one-wrapper mt--40 pl_sm--0">
                                             <div class="single-feature-one active">
                                                 <i class="fal fa-check"></i>
-                                                <p>Hızlı Büyüme Odaklı Yaklaşım</p>
+                                                <p>Sürdürülebilir İş Hacmi</p>
                                             </div>
+
                                             <div class="single-feature-one">
                                                 <i class="fal fa-check"></i>
-                                                <p>7/24 Süreç Takibi ve Destek</p>
+                                                <p>Üretimden Zincire Tüm Süreç</p>
                                             </div>
                                             <div class="single-feature-one">
                                                 <i class="fal fa-check"></i>
                                                 <p>Alanında Uzman Kadro</p>
                                             </div>
+
                                             <div class="single-feature-one">
                                                 <i class="fal fa-check"></i>
-                                                <p>Yüksek Kalite Danışmanlık</p>
+                                                <p>7/24 Süreç Takibi ve Destek</p>
                                             </div>
                                         </div>
                                     </div>
@@ -422,11 +436,32 @@
                 <div class="row">
                     <!-- single wized -->
                     <div class="order-1 order-lg-1 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12 mt_sm--30 mt_md--30">
-                       <a class="logo-1 mb--20" href="/"><img class="logo" src="assets/images/logo/logo.png" alt="lefka_logo" /></a>
-                       <div class="banner-color-black mb--20">Büyüme hedefi olan markalar için, büyük ölçekli perakende
-                            ağlarına erişimi mümkün kılan danışmanlık hizmetleri sunuyoruz.</div>
+                        <div class="d-block d-lg-none">
+                                    <a href="/">
+                                    <img src="assets/images/logo/mobile.png" alt="lefka-logo" />
+                                </a>
+                                </div>
+                                <div class="d-none d-lg-block">
+                                    <a href="/">
+                                    <img src="assets/images/logo/desktop.png" alt="lefka-logo" />
+                                </a>
+                                </div>
+                        <div class="banner-color-black mb--20 pr--20">Satın alma ve tedarik zinciri yönetiminde deneyimli ekip
+                            ve
+                            inovatif marketing anlayışıyla stratejik iş ortağınız olarak yanınızdayız..</div>
                     </div>
-                    <div class="order-3 order-lg-2 col-xl-2 col-lg-6 col-md-6 col-sm-12 col-12 mt_sm--50">
+                    
+                    <div class="order-2 order-lg-2 col-xl-4 offset-xl-1 col-lg-6 col-md-6 col-sm-12 col-12">
+                        <div class="footer-two-single-wized left">
+                            <h3 class="title animated fadeIn">
+                                <span>Bizim Çalışmaya</span>
+                                <div>Hazır Mısınız?</div>
+                            </h3>
+                            <a href="mailto:bilgi@lefkadanismanlik.com" class="rts-btn btn-primary">Mailinizi
+                                Bekliyoruz</a>
+                        </div>
+                    </div>
+                    <!-- <div class="order-3 order-lg-2 col-xl-2 col-lg-6 col-md-6 col-sm-12 col-12 mt_sm--50">
                         <div class="footer-two-single-wized two">
                             <div class="wized-title-area">
                                 <h5 class="wized-title">Hizmetlerimiz</h5>
@@ -434,28 +469,30 @@
                             <div class="wized-2-body">
                                 <ul>
                                     <li>
-                                        <a href="#services-section"><i
-                                                class="fal fa-chevron-double-right"></i>Perakende Planı</a>
+                                        <a href="#services-section"><i class="fal fa-chevron-double-right"></i>Perakende
+                                            Planı</a>
                                     </li>
                                     <li>
-                                        <a href="#services-section"><i class="fal fa-chevron-double-right"></i>İş Birliği</a>
+                                        <a href="#services-section"><i class="fal fa-chevron-double-right"></i>İş
+                                            Birliği</a>
                                     </li>
                                     <li>
-                                        <a href="#services-section"><i
-                                                class="fal fa-chevron-double-right"></i>Pazar Analizi</a>
+                                        <a href="#services-section"><i class="fal fa-chevron-double-right"></i>Pazar
+                                            Analizi</a>
                                     </li>
                                     <li>
-                                        <a href="#services-section"><i
-                                                class="fal fa-chevron-double-right"></i>Süreç Yönetimi</a>
+                                        <a href="#services-section"><i class="fal fa-chevron-double-right"></i>Süreç
+                                            Yönetimi</a>
                                     </li>
                                     <li>
-                                        <a href="#services-section"><i class="fal fa-chevron-double-right"></i>Büyüme Stratejisi</a>
+                                        <a href="#services-section"><i class="fal fa-chevron-double-right"></i>Büyüme
+                                            Stratejisi</a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
-                    </div>
-                    <div class="order-4 order-lg-3 col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12 mt_sm--30 mt_md--30">
+                    </div> -->
+                    <div class="order-3 order-lg-3 col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12 mt_sm--30 mt_md--30">
                         <div class="footer-two-single-wized">
                             <div class="wized-title-area">
                                 <h5 class="wized-title">Bize Ulaşın</h5>
@@ -482,15 +519,6 @@
                             </div>
                         </div>
                     </div>
-                    <div class="order-2 order-lg-4 col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12">
-                        <div class="footer-two-single-wized left">
-                            <h3 class="title animated fadeIn">
-                                <span>Bizim Çalışmaya</span>
-                                <div>Hazır Mısınız?</div>
-                            </h3>
-                            <a href="mailto:bilgi@lefkadanismanlik.com" class="rts-btn btn-primary">Mailinizi Bekliyoruz</a>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -501,13 +529,22 @@
             </button>
             <!-- inner menu area desktop start -->
             <div class="rts-sidebar-menu-desktop">
-                <a class="logo-1" href="/"><img class="logo" src="assets/images/logo/logo.png" alt="lefka_logo" /></a>
+                <div class="d-block d-lg-none">
+                                    <a href="/">
+                                    <img src="assets/images/logo/mobile.png" alt="lefka-logo" />
+                                </a>
+                                </div>
+                                <div class="d-none d-lg-block">
+                                    <a href="/">
+                                    <img src="assets/images/logo/desktop.png" alt="lefka-logo" />
+                                </a>
+                                </div>
                 <div class="body">
                     <p class="disc">
-                        Markaların büyük perakende zincirleriyle doğru şekilde buluşmasını sağlayan bir danışmanlık
-                        ajansıdır.
-                        Ürünlerinizi doğru kanallara taşıyacak stratejiler geliştiririz.
-                        Perakende giriş, müzakere ve iş birliği süreçlerini uçtan uca yönetiriz.
+                        Markanızın pazar araştırması ve analizlerini yapıyor, doğru stratejiyle tedarikten nihai
+                        tüketiciye ulaşma serüveninizde; ürünlerinize değer yaratılması, fiyatlandırılması ve lojistik
+                        sürecinin tamamlanmasında markanızın yanında yer alıyoruz. Müşteri ihtiyaçlarını anlama, talep
+                        oluşturma ve marka bağlılığı kurma odaklı bütünsel bir işletme anlayışıyla hizmet vermekteyiz.
                     </p>
                     <div class="get-in-touch">
                         <!-- title -->
@@ -534,8 +571,10 @@
                             <!-- single ENd -->
                         </div>
                         <div class="social-wrapper-two menu">
-                            <a href="https://www.facebook.com/61587952433870" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                            <a href="https://www.instagram.com/lefkadanismanlik" aria-label="instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/61587952433870" aria-label="Facebook"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/lefkadanismanlik" aria-label="instagram"><i
+                                    class="fab fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>
