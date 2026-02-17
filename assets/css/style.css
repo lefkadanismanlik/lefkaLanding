@@ -8332,7 +8332,6 @@ header.header--sticky.sticky .nav-area ul li.main-nav {
   .banner-style-one {
     height: auto;
     background-position: 18%, 45%;
-    background: #9095cd;
   }
   .banner-style-one::after {
     content: "";
@@ -8367,7 +8366,7 @@ header.header--sticky.sticky .nav-area ul li.main-nav {
 }
 @media only screen and (max-width: 575px) {
   .banner-style-one .banner-one-inner {
-    padding: 40px 5px 46px 5px;
+    padding: 40px 5px 26px 5px;
   }
 }
 .banner-style-one .banner-one-inner .pre-title {
