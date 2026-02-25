@@ -35634,3 +35634,7 @@ header.header-transparent.in-full-screen .action-area .menu-btn {
   flex: 0 0 50%;
   flex-wrap: wrap;
 }
+
+.mobile-logo {
+  max-width: 188px;
+}
