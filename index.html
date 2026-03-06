@@ -18,7 +18,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com/" />
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&amp;display=swap"
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
         rel="stylesheet preload" as="style" />
     <link rel="stylesheet preload" href="assets/css/style.css" as="style" />
 </head>
@@ -55,12 +55,12 @@
                             <div class="thumbnail">
                                 <div class="d-block d-lg-none">
                                     <a href="/">
-                                        <img class="mobile-logo" src="assets/images/logo/mobile.png" alt="lefka-mobile-logo" />
+                                        <img class="mobile-logo" src="assets/images/logo/mobile.png" alt="lefka-mobile-logo" decoding="async" />
                                     </a>
                                 </div>
                                 <div class="d-none d-lg-block">
                                     <a href="/">
-                                        <img src="assets/images/logo/desktop.png" alt="lefka-logo" />
+                                        <img src="assets/images/logo/desktop.png" alt="lefka-logo" decoding="async" />
                                     </a>
                                 </div>
                             </div>
@@ -91,7 +91,7 @@
                                         class="rts-btn btn-primary ml--20 ml_sm--5 header-one-btn quote-btn">Bize
                                         Ulaşın</a>
                                     <button id="menu-btn" aria-label="Menu" class="menu-btn menu ml--20 ml_sm--5">
-                                        <img class="menu-light" src="assets/images/icons/01.svg" alt="Menu-icon" />
+                                        <img class="menu-light" src="assets/images/icons/01.svg" alt="Menu-icon" decoding="async" />
                                     </button>
                                 </div>
                             </div>
@@ -108,24 +108,26 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="banner-one-inner text-start">
-                        <Image src="./assets/images/banner/hero2.webp" alt="" />
+                        <div class="d-none d-lg-block">
+                            <img src="./assets/images/banner/hero2.webp" alt="" fetchpriority="high" decoding="async" />
+                        </div>
+                        <div class="hero-text d-block d-lg-none">
+                            Lefka Consulting Group
+                        </div>
                         <h1 class="title rts-text-anime-style-1">
                             <span>Markanızın Yanında!</span>
                         </h1>
-                        <div class="banner-color-black">Satın alma ve tedarik zinciri yönetiminde deneyimli ekip ve
-                        </div>
-                        <div class="banner-color-black bottom">inovatif marketing anlayışıyla stratejik iş ortağınız
+                        <div class="banner-color-def mb--30">Satın alma ve tedarik zinciri yönetiminde deneyimli ekip ve inovatif marketing anlayışıyla stratejik iş ortağınız
                             olarak yanınızdayız.
                         </div>
-                        <a href="mailto:bilgi@lefkadanismanlik.com" class="rts-btn btn-primary color-h-black">Hadi
-                            Başlayalım</a>
+                        <a href="/" class="rts-btn btn-primary color-h-black">Ön Değerlendirme Formu</a>
                     </div>
                 </div>
             </div>
         </div>
         <div class="shape-iamge-area">
-            <img src="assets/images/banner/shape/04.png" alt="" class="one" />
-            <img src="assets/images/banner/shape/circle.svg" alt="" class="two" />
+            <img src="assets/images/banner/shape/04.png" alt="" class="one" decoding="async" />
+            <img src="assets/images/banner/shape/circle.svg" alt="" class="two" decoding="async" />
         </div>
     </div>
     <!-- rts banner area end -->
@@ -171,7 +173,7 @@
                 <div class="col-lg-7 mobile-fix">
                     <div class="thumbnail-about-and-progress-1">
                         <div class="thumbnail-about-1">
-                            <img src="assets/images/about/01.webp" alt="about" />
+                            <img src="assets/images/about/01.webp" alt="about" loading="lazy" decoding="async" />
                         </div>
                         <div class="progress-circle-main-wrapper">
                             <div class="progress-area-wrapper images-r">
@@ -211,7 +213,7 @@
                         <div class="sticky-statement">
                             <div class="left-side">
                                 <div class="icon">
-                                    <img src="assets/images/service/01.svg" alt="service" />
+                                    <img src="assets/images/service/01.svg" alt="service" loading="lazy" decoding="async" />
                                 </div>
                                 <h5 class="title">Giriş Stratejisi</h5>
                             </div>
@@ -225,7 +227,7 @@
                         <div class="sticky-statement">
                             <div class="left-side">
                                 <div class="icon">
-                                    <img src="assets/images/service/01.svg" alt="service" />
+                                    <img src="assets/images/service/01.svg" alt="service" loading="lazy" decoding="async" />
                                 </div>
                                 <h5 class="title">İş Birlikleri</h5>
                             </div>
@@ -239,7 +241,7 @@
                         <div class="sticky-statement">
                             <div class="left-side">
                                 <div class="icon">
-                                    <img src="assets/images/service/01.svg" alt="service" />
+                                    <img src="assets/images/service/01.svg" alt="service" loading="lazy" decoding="async" />
                                 </div>
                                 <h5 class="title">Kanal Analizi</h5>
                             </div>
@@ -254,7 +256,7 @@
                         <div class="sticky-statement">
                             <div class="left-side">
                                 <div class="icon">
-                                    <img src="assets/images/service/01.svg" alt="service" />
+                                    <img src="assets/images/service/01.svg" alt="service" loading="lazy" decoding="async" />
                                 </div>
                                 <h5 class="title">Süreç Yönetimi</h5>
                             </div>
@@ -279,10 +281,10 @@
                 <div class="col-lg-6">
                     <div class="consultancy-thumbnail-area">
                         <div class="large-image">
-                            <img src="assets/images/service/service-big.webp" alt="big pic" />
+                            <img src="assets/images/service/service-big.webp" alt="big pic" loading="lazy" decoding="async" />
                         </div>
                         <div class="small-iamge images-r">
-                            <img src="assets/images/service/service-small.webp" alt="small pic" />
+                            <img src="assets/images/service/service-small.webp" alt="small pic" loading="lazy" decoding="async" />
                         </div>
                     </div>
                 </div>
@@ -298,7 +300,7 @@
                         <div class="signle-consultancy mb--30" data-animation="fadeInUp" data-delay="0.2"
                             data-duration="1.2">
                             <div class="icon">
-                                <img src="assets/images/about/icons/01.svg" alt="" />
+                                <img src="assets/images/about/icons/01.svg" alt="" loading="lazy" decoding="async" />
                             </div>
                             <div class="information">
                                 <h4 class="title">Profesyonel Marka Danışmanlığı</h4>
@@ -310,7 +312,7 @@
                         </div>
                         <div class="signle-consultancy" data-animation="fadeInUp" data-delay="0.4" data-duration="1.2">
                             <div class="icon">
-                                <img src="assets/images/about/icons/02.svg" alt="" />
+                                <img src="assets/images/about/icons/02.svg" alt="" loading="lazy" decoding="async" />
                             </div>
                             <div class="information">
                                 <h4 class="title">7/24 Süreç ve İletişim Desteği</h4>
@@ -336,7 +338,7 @@
                     <div class="col-lg-4" data-animation="fadeInUp" data-delay="0.2" data-duration="1.2">
                         <div class="signle-fun-facts-one">
                             <div class="icon">
-                                <img src="assets/images/consulting/01.svg" alt="fun-facts" />
+                                <img src="assets/images/consulting/01.svg" alt="fun-facts" loading="lazy" decoding="async" />
                             </div>
                             <h2 class="counter title">
                                 <span class="odometer" data-count="120">00</span>+
@@ -347,7 +349,7 @@
                     <div class="col-lg-4" data-animation="fadeInUp" data-delay="0.4" data-duration="1.2">
                         <div class="signle-fun-facts-one">
                             <div class="icon">
-                                <img src="assets/images/consulting/02.svg" alt="fun-facts" />
+                                <img src="assets/images/consulting/02.svg" alt="fun-facts" loading="lazy" decoding="async" />
                             </div>
                             <h2 class="counter title">
                                 <span class="odometer" data-count="82">00</span>
@@ -358,7 +360,7 @@
                     <div class="col-lg-4" data-animation="fadeInUp" data-delay="0.6" data-duration="1.2">
                         <div class="signle-fun-facts-one">
                             <div class="icon">
-                                <img src="assets/images/consulting/03.svg" alt="fun-facts" />
+                                <img src="assets/images/consulting/03.svg" alt="fun-facts" loading="lazy" decoding="async" />
                             </div>
                             <h2 class="counter title">
                                 <span class="odometer" data-count="176">00</span>
@@ -371,6 +373,20 @@
         </div>
         <!-- rts fun facts area end -->
 
+        <!-- partnerlerimiz area start -->
+        <div class="partners-area-main rts-section-gapTop">
+            <div class="container">
+                <div class="title-style-one center">
+                    <span class="pre">Birlikte Değer Ürettiklerimiz</span>
+                    <h2 class="title rts-text-anime-style-1">Partnerlerimiz</h2>
+                </div>
+                <div class="swiper mySwiper-partners mt--40">
+                    <div id="partnersSwiperWrapper" class="swiper-wrapper"></div>
+                </div>
+            </div>
+        </div>
+        <!-- partnerlerimiz area end -->
+
         <!-- business boost area start -->
         <div class="boost-your-business-today mt--70">
             <div class="container-2">
@@ -380,7 +396,7 @@
                             <div class="row">
                                 <div class="col-lg-5">
                                     <div class="business-marklting-area-thumb">
-                                        <img src="assets/images/business/business.webp" alt="business_area" />
+                                        <img src="assets/images/business/business.webp" alt="business_area" loading="lazy" decoding="async" />
                                     </div>
                                 </div>
                                 <div class="col-lg-6 offset-lg-1">
@@ -435,12 +451,12 @@
                     <div class="order-1 order-lg-1 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12 mt_sm--30 mt_md--30">
                         <div class="d-block d-lg-none mb--10">
                             <a href="/">
-                                <img class="mobile-logo" src="assets/images/logo/mobile.png" alt="lefka-mobile-logo" />
+                                <img class="mobile-logo" src="assets/images/logo/mobile.png" alt="lefka-mobile-logo" loading="lazy" decoding="async" />
                             </a>
                         </div>
                         <div class="d-none d-lg-block mb--10">
                             <a href="/">
-                                <img src="assets/images/logo/desktop.png" alt="lefka-logo" />
+                                <img src="assets/images/logo/desktop.png" alt="lefka-logo" loading="lazy" decoding="async" />
                             </a>
                         </div>
                         <div class="banner-color-black mb--20 pr--20">Satın alma ve tedarik zinciri yönetiminde
@@ -529,12 +545,12 @@
             <div class="rts-sidebar-menu-desktop">
                 <div class="d-block d-lg-none mt--20">
                     <a href="/">
-                        <img class="mobile-logo" src="assets/images/logo/mobile.png" alt="lefka-mobile-logo" />
+                        <img class="mobile-logo" src="assets/images/logo/mobile.png" alt="lefka-mobile-logo" loading="lazy" decoding="async" />
                     </a>
                 </div>
                 <div class="d-none d-lg-block mt--10">
                     <a href="/">
-                        <img src="assets/images/logo/desktop.png" alt="lefka-logo" />
+                        <img src="assets/images/logo/desktop.png" alt="lefka-logo" loading="lazy" decoding="async" />
                     </a>
                 </div>
                 <div class="body">
@@ -606,9 +622,11 @@
 
         <script defer src="assets/js/vendor/bootstrap.min.js"></script>
         <script defer src="assets/js/plugins/swiper.js"></script>
-        <script defer src="assets/js/plugins/contact.form.js"></script>
 
+        <script defer src="assets/js/partners.js"></script>
         <script defer src="assets/js/main.js"></script>
 </body>
 
 </html>
+
+

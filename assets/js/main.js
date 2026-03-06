@@ -45,7 +45,6 @@
       rtsJs.sideMenu();
       rtsJs.searchOption();
       rtsJs.vedioActivation();
-      rtsJs.portfoliobounceAnimation();
       rtsJs.commonAnimation();
       rtsJs.imageSlideGsap();
       rtsJs.swiperActivation();
@@ -319,38 +318,6 @@
         });
       });
     },
-    portfoliobounceAnimation: function () {
-      if (device_width > 991) {
-        gsap.set(".rts_jump_animation-wrapper .rts-jump__item", { opacity: 0, scale: 1.15, rotation: 0 })
-        gsap.to(".rts_jump_animation-wrapper .rts-jump__item", {
-          scrollTrigger: {
-            trigger: ".rts_jump_animation-wrapper .rts-jump__item",
-            start: "top 95%"
-          },
-          opacity: 1.3,
-          scale: 1,
-          duration: 1,
-          ease: "bounce",
-          stagger: 0.3,
-          rotation: 0
-        })
-      }
-      if (device_width > 991) {
-        gsap.set(".rts-jump__item-2", { opacity: 0, scale: 1.15, rotation: 0 })
-        gsap.to(".rts-jump__item-2", {
-          scrollTrigger: {
-            trigger: ".rts-jump__item-2",
-            start: "top center+=200"
-          },
-          opacity: 1,
-          scale: 1,
-          duration: 1.5,
-          ease: "bounce",
-          stagger: 0.9,
-          rotation: 0
-        })
-      }
-    },
     commonAnimation: function () {
       gsap.registerPlugin(ScrollTrigger);
 
@@ -416,40 +383,16 @@
     },
     imageSlideGsap: function () {
       $(document).ready(function () {
-        gsap.to(".images", {
-          scrollTrigger: {
-            // trigger: ".images",
-            start: "top bottom",
-            end: "bottom top",
-            scrub: 1,
-            // markers: true
-          },
-          x: -250,
-        })
-      });
-      $(document).ready(function () {
-        gsap.to(".images-r", {
-          scrollTrigger: {
-            // trigger: ".images",
-            start: "top bottom",
-            end: "bottom top",
-            scrub: 1,
-            // markers: true
-          },
-          x: 250,
-        })
-      });
-      $(document).ready(function () {
-        gsap.to(".images-2", {
-          scrollTrigger: {
-            // trigger: ".images",
-            start: "top bottom",
-            end: "bottom top",
-            scrub: 1,
-            // markers: true
-          },
-          y: -290,
-        })
+        if (document.querySelector(".images-r")) {
+          gsap.to(".images-r", {
+            scrollTrigger: {
+              start: "top bottom",
+              end: "bottom top",
+              scrub: 1,
+            },
+            x: 250,
+          });
+        }
       });
     },
     swiperActivation: function () {
@@ -753,6 +696,37 @@
             0: {
               slidesPerView: 2,
             }
+          },
+        });
+      });
+      $(document).ready(function () {
+        var swiper = new Swiper(".mySwiper-partners", {
+          slidesPerView: 5,
+          spaceBetween: 24,
+          slidesPerGroup: 1,
+          loop: true,
+          centeredSlides: false,
+          speed: 1000,
+          autoplay: {
+            delay: 2200,
+            disableOnInteraction: false,
+          },
+          breakpoints: {
+            1200: {
+              slidesPerView: 5,
+            },
+            992: {
+              slidesPerView: 4,
+            },
+            768: {
+              slidesPerView: 3,
+            },
+            576: {
+              slidesPerView: 2,
+            },
+            0: {
+              slidesPerView: 2,
+            },
           },
         });
       });
