@@ -35687,12 +35687,11 @@ header.header-transparent.in-full-screen .action-area .menu-btn {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 18px;
+  padding: 8px;
 }
 
 .partners-area-main .partner-card img {
   max-width: 100%;
-  max-height: 84px;
   object-fit: contain;
 }
 

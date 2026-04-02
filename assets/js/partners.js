@@ -6,7 +6,8 @@ window.partnerLogoItems = [
   { name: "Partner 04", url: "./assets/images/partners/ozturk.jpg" },
   { name: "Partner 05", url: "./assets/images/partners/majestik.jpg" },
   { name: "Partner 06", url: "./assets/images/partners/fulgent.jpg" },
-  { name: "Partner 07", url: "./assets/images/partners/bein.jpg" }
+  { name: "Partner 07", url: "./assets/images/partners/bein.jpg" },
+  { name: "Partner 08", url: "./assets/images/partners/balarisi.jpg" }
 ];
 
 (function () {
