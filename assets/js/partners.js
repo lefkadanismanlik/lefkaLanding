@@ -11,7 +11,8 @@ window.partnerLogoItems = [
   { name: "Partner 09", url: "./assets/images/partners/wel.jpg" },
   { name: "Partner 10", url: "./assets/images/partners/koko.jpg" },
   { name: "Partner 11", url: "./assets/images/partners/dog.jpg" },
-  { name: "Partner 12", url: "./assets/images/partners/raz.jpg" }
+  { name: "Partner 12", url: "./assets/images/partners/raz.jpg" },
+  { name: "Partner 13", url: "./assets/images/partners/fly.jpg" }
 ];
 
 (function () {
