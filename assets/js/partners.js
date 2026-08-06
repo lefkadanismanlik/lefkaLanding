@@ -5,14 +5,15 @@ window.partnerLogoItems = [
   { name: "Partner 03", url: "./assets/images/partners/kral.jpg" },
   { name: "Partner 04", url: "./assets/images/partners/ozturk.jpg" },
   { name: "Partner 05", url: "./assets/images/partners/majestik.jpg" },
-  { name: "Partner 06", url: "./assets/images/partners/fulgent.jpg" },
+  { name: "Partner 06", url: "./assets/images/partners/global.jpg" },
   { name: "Partner 07", url: "./assets/images/partners/bein.jpg" },
   { name: "Partner 08", url: "./assets/images/partners/balarisi.jpg" },
   { name: "Partner 09", url: "./assets/images/partners/wel.jpg" },
   { name: "Partner 10", url: "./assets/images/partners/koko.jpg" },
   { name: "Partner 11", url: "./assets/images/partners/dog.jpg" },
   { name: "Partner 12", url: "./assets/images/partners/raz.jpg" },
-  { name: "Partner 13", url: "./assets/images/partners/fly.jpg" }
+  { name: "Partner 13", url: "./assets/images/partners/fly.jpg" },
+  { name: "Partner 14", url: "./assets/images/partners/fulgent.jpg" }
 ];
 
 (function () {
